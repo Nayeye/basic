@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐹햄쮝이들🐹</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <!-- -> 내가 만든 것 보다 위에 있어야함 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="전체">
+        <div class="배너">
+            <div class="your-class">
+                <div><img src="https://i.pinimg.com/564x/1e/c0/de/1ec0de6c2d1fa73bd7cf8f31c1c918fa.jpg" alt=""></div>
+                <div><img src="https://i.pinimg.com/564x/3b/82/a1/3b82a1c014e7664c4c06c83fcc0e3f5c.jpg" alt=""></div>
+                <div><img src="https://i.pinimg.com/564x/b7/f8/ae/b7f8ae29d5dac1f1097eb83e3d690e6c.jpg" alt=""></div>
+            </div><!-- //your-class -->
+        </div><!-- //배너 -->
+    </div><!-- //전체 -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> <!-- ->jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> <!-- slick cdn -->
+    <script>
+        $(document).ready(function () {
+            $('.your-class').slick({
+                autoplay:true
+                /* setting - name: setting - value */
+            });
+        });
+    </script>
+</body>
+
+</html>
